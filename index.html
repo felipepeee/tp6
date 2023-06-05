@@ -1,10 +1,11 @@
-<!DOCTYPE html>
 <html>
+<!DOCTYPE html>
 
 <head>
     <style>
-        
+       
 
+        
         main {
             display: flex;
             justify-content: center;
@@ -15,7 +16,7 @@
         }
 
         .productos {
-            display flex : ;
+            display: flex;
         }
 
         .img-conteiner {
@@ -29,25 +30,28 @@
             left: 10px;
             opacity: 0;
         }
-        .producto:hover .img-hover{
+
+        .producto:hover .img-hover {
             opacity: 1;
         }
+
         /*presio*/
         .producto .presio {
             position: relative;
             bottom: 40px;
             background-color: #ffffff;
-            transition:all 0.04 ease-in-out ;
+            transition: all 0.04 ease-in-out;
 
         }
-        .producto:hover .presio{
+
+        .producto:hover .presio {
             background-color: #ffffff;
         }
+
         .producto .presio p {
             margin: 0;
             font-size: 0.7em;
         }
-        
     </style>
 
 </head>
@@ -57,9 +61,10 @@
         1-se utilisa display: flex;
         2-se utilisa flex es justify-content: center; 
         3-se utilisa align-items: center;
-        4-width: 100px; /* ancho */height: 100px; /* alto */
+        4-width: 100px;
         5-width: 200px;
         6-es background-color: red;
+        
     -->
     <header>
 
@@ -71,41 +76,38 @@
         </div>
     </header>
     <main class="container">
-        <div class="box">
-            <img src="" alt="">
-            <h3>Título 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div>
-                
+        <div class="productos">
+            <div class="img-conteiner">
+                <!--imagen 1-->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0c6edd3002fc40ec8141aedd00f53ef3_9366/Zapatillas_Samba_Argentina_Azul_HQ7037_01_standard.jpg"
+                    alt="SAPA">
+                <!--imagen 2-->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d457d95fe7e148f88d7aaedd00b4c8b3_9366/Zapatillas_Samba_Argentina_Azul_HQ7037_02_standard_hover.jpg"
+                    alt="SAPA">
+
+                </div>
+                <div class="presio">
+                    <p>$40.899</p>
+                </div>
+                <h3>Zapatillas Zapatillas Samba Argentina asules </h3>
+            <div class="productos">
+                <div class="img-conteiner">
+                    <!--imajen 1-->
+                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
+                        alt="SAPA">
+                    <!--imagen 2-->
+                    <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"" alt="">
+                <!--presio-->
+                <div class=" presio">
+                    <p>$85.000</p>
+                </div>
 
             </div>
-        </div>
-        <div class="producto">
-            <!--imajen 1-->
-            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
-                alt="SAPA">
-            <!--imagen 2-->
-            <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"" alt="">
-            <!--presio-->
-            <div class="presio">
-                <p>$85.000</p>
-            </div>
-            <h3>Zapatillas Zapatillas Gamecourt 2.0 para tenis</h3>
+            <h3>Zapatillas Zapatillas Gamecourt 2.0 para tenis</h3> 
             <p>Hombre Tenis</p>
             <p>2 Colores<strong> . envio gratis</strong></p>
         </div>
-        <div class="box">
-            <img src="" alt="">
-            <h3>Título 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#">Enlace 3</a>
-        </div>
-        <div class="box">
-            <img src="https://picsum.photos/200" alt="">
-            <h3>Título 4</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#">Enlace 4</a>
-        </div>
+
     </main>
 </body>
 
