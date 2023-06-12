@@ -3,3 +3,95 @@
     justify-content: center;
 
 }
+
+.menu ul { 
+    display: flex;
+    list-style: none;
+    
+}
+.menu li{
+display: flex;
+    margin:5px;
+    list-style: none;
+
+
+}
+
+.menu {
+    display: flex;
+    
+}
+
+
+.boton {
+    text-decoration: none;
+    /* Eliminamos el subrayado del enlace */
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    /* margen interior */
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.boton:hover {
+    /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
+    background-color: rgb(0, 0, 0);
+    color: #000;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    margin: 0 auto;
+    /* 0: arriba y abajo / auto: automático segón resolución */
+
+}
+
+.productos {
+    display: flex;
+}
+
+.img-conteiner {
+    position: relative;
+
+}
+
+.producto.img-hover {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    opacity: 0;
+}
+
+.producto:hover .img-hover {
+    opacity: 1;
+}
+
+/*presio*/
+.producto .presio {
+    position: relative;
+    bottom: 40px;
+    background-color: #ffffff;
+    transition: all 0.04 ease-in-out;
+
+}
+
+.producto:hover .presio {
+    background-color: #ffffff;
+}
+
+.producto .presio p {
+    margin: 0;
+    font-size: 0.7em;
+}

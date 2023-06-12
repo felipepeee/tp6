@@ -1,58 +1,12 @@
 <html>
 <!DOCTYPE html>
-
+<html lang="en"></html>
 <head>
-    <style>
-       
-
-        
-        main {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            max-width: 900px;
-
-
-        }
-
-        .productos {
-            display: flex;
-        }
-
-        .img-conteiner {
-            position: relative;
-
-        }
-
-        .producto.img-hover {
-            position: absolute;
-            top: 0;
-            left: 10px;
-            opacity: 0;
-        }
-
-        .producto:hover .img-hover {
-            opacity: 1;
-        }
-
-        /*presio*/
-        .producto .presio {
-            position: relative;
-            bottom: 40px;
-            background-color: #ffffff;
-            transition: all 0.04 ease-in-out;
-
-        }
-
-        .producto:hover .presio {
-            background-color: #ffffff;
-        }
-
-        .producto .presio p {
-            margin: 0;
-            font-size: 0.7em;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
 
 </head>
 
@@ -66,15 +20,32 @@
         6-es background-color: red;
         
     -->
+
     <header>
-
+        <!-- caja navegadción-->
         <div>
-            <h3 class="container-title">ver todos los calsados</h3>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">ver deportes</a></li>
+                    <li><a href="#">ver indumentaria</a></li>
+                    <li><a href="#"><strong>Ver todo</strong></a></li>
+                </ul>
+            </nav>
         </div>
-        <div>
+        <!-- caja btn filtro-->
+        <div class="boton">
+            <a href="#">filtros</a>
 
         </div>
+
     </header>
+
+
+
+
+    <!--producto 1-->
+
+
     <main class="container">
         <div class="productos">
             <div class="img-conteiner">
@@ -85,28 +56,349 @@
                 <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d457d95fe7e148f88d7aaedd00b4c8b3_9366/Zapatillas_Samba_Argentina_Azul_HQ7037_02_standard_hover.jpg"
                     alt="SAPA">
 
-                </div>
                 <div class="presio">
                     <p>$40.899</p>
                 </div>
-                <h3>Zapatillas Zapatillas Samba Argentina asules </h3>
-            <div class="productos">
-                <div class="img-conteiner">
-                    <!--imajen 1-->
-                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
-                        alt="SAPA">
-                    <!--imagen 2-->
-                    <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"" alt="">
+                <h3>Zapatilla Zapatillas_Samba_Azul</h3>
+                <p>Hombre Tenis</p>
+                <p>2 Colores<strong> . envio gratis</strong></p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!--producto 2-->
+
+
+
+
+
+        <div class="productos">
+            <div class="img-conteiner">
+                <!--imajen 1-->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
+                    alt="SAPA">
+                <!--imagen 2-->
+                <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"
+                    alt="">
                 <!--presio-->
                 <div class=" presio">
                     <p>$85.000</p>
                 </div>
 
+
+                <h3>
+                    Zapatillas Gamecourt 2.0 para tenis</h3>
+                <p>Hombre Tenis</p>
+                <p>2 Colores<strong> . envio gratis</strong></p>
             </div>
-            <h3>Zapatillas Zapatillas Gamecourt 2.0 para tenis</h3> 
+        </div>
+
+
+
+
+        <!--PRODUCTO 3-->
+
+
+
+
+        <div class="productos">
+            <div class="img-conteiner">
+                <!--imajen 1-->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
+                    alt="SAPA">
+                <!--imagen 2-->
+                <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"
+                    alt="">
+                <!--presio-->
+                <div class=" presio">
+                    <p>$85.000</p>
+                </div>
+
+
+                <h3>
+                    Zapatillas Gamecourt 2.0 para tenis</h3>
+                <p>Hombre Tenis</p>
+                <p>2 Colores<strong> . envio gratis</strong></p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="productos">
+            <div class="img-conteiner">
+                <!--imajen 1-->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
+                    alt="SAPA">
+                <!--imagen 2-->
+                <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"
+                    alt="">
+                <!--presio-->
+                <div class=" presio">
+                    <p>$85.000</p>
+                </div>
+
+
+                <h3>
+                    Zapatillas Gamecourt 2.0 para tenis</h3>
+                <p>Hombre Tenis</p>
+                <p>2 Colores<strong> . envio gratis</strong></p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="productos">
+            <div class="img-conteiner">
+                <!--imajen 1-->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
+                    alt="SAPA">
+                <!--imagen 2-->
+                <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"
+                    alt="">
+                <!--presio-->
+                <div class=" presio">
+                    <p>$85.000</p>
+                </div>
+
+
+                <h3>
+                    Zapatillas Gamecourt 2.0 para tenis</h3>
+                <p>Hombre Tenis</p>
+                <p>2 Colores<strong> . envio gratis</strong></p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="productos">
+            <div class="img-conteiner">
+                <!--imajen 1-->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
+                    alt="SAPA">
+                <!--imagen 2-->
+                <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"
+                    alt="">
+                <!--presio-->
+                <div class=" presio">
+                    <p>$85.000</p>
+                </div>
+
+
+                <h3>
+                    Zapatillas Gamecourt 2.0 para tenis</h3>
+                <p>Hombre Tenis</p>
+                <p>2 Colores<strong> . envio gratis</strong></p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="productos">
+            <div class="img-conteiner">
+                <!--imajen 1-->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
+                    alt="SAPA">
+                <!--imagen 2-->
+                <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"
+                    alt="">
+                <!--presio-->
+                <div class=" presio">
+                    <p>$85.000</p>
+                </div>
+
+
+                <h3>
+                    Zapatillas Gamecourt 2.0 para tenis</h3>
+                <p>Hombre Tenis</p>
+                <p>2 Colores<strong> . envio gratis</strong></p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="productos">
+            <div class="img-conteiner">
+                <!--imajen 1-->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
+                    alt="SAPA">
+                <!--imagen 2-->
+                <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"
+                    alt="">
+                <!--presio-->
+                <div class=" presio">
+                    <p>$85.000</p>
+                </div>
+
+
+                <h3>
+                    Zapatillas Gamecourt 2.0 para tenis</h3>
+                <p>Hombre Tenis</p>
+                <p>2 Colores<strong> . envio gratis</strong></p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="productos">
+            <div class="img-conteiner">
+                <!--imajen 1-->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
+                    alt="SAPA">
+                <!--imagen 2-->
+                <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"
+                    alt="">
+                <!--presio-->
+                <div class=" presio">
+                    <p>$85.000</p>
+                </div>
+
+
+                <h3>
+                    Zapatillas Gamecourt 2.0 para tenis</h3>
+                <p>Hombre Tenis</p>
+                <p>2 Colores<strong> . envio gratis</strong></p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="productos">
+            <div class="img-conteiner">
+                <!--imajen 1-->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
+                    alt="SAPA">
+                <!--imagen 2-->
+                <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"
+                    alt="">
+                <!--presio-->
+                <div class=" presio">
+                    <p>$85.000</p>
+                </div>
+
+
+                <h3>
+                    Zapatillas Gamecourt 2.0 para tenis</h3>
+                <p>Hombre Tenis</p>
+                <p>2 Colores<strong> . envio gratis</strong></p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="productos">
+            <div class="img-conteiner">
+                <!--imajen 1-->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
+                    alt="SAPA">
+                <!--imagen 2-->
+                <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"" alt="">
+                    <!--presio-->
+                    <div class=" presio">
+                <p>$85.000</p>
+            </div>
+
+
+            <h3>
+                Zapatillas Gamecourt 2.0 para tenis</h3>
             <p>Hombre Tenis</p>
             <p>2 Colores<strong> . envio gratis</strong></p>
         </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="productos">
+            <div class="img-conteiner">
+                <!--imajen 1-->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1fb3119ddb3444bca812af3b018020e9_9366/Zapatillas_Gamecourt_2.0_para_Tenis_Blanco_HQ8809_01_standard.jpg"
+                    alt="SAPA">
+                <!--imagen 2-->
+                <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/be64a3cef8434f8cbeaaaf3b01802f3b_9366/zapatillas-gamecourt-2.0-para-tenis.jpg"" alt="">
+                    <!--presio-->
+                    <div class=" presio">
+                <p>$85.000</p>
+            </div>
+
+
+            <h3>
+                Zapatillas Gamecourt 2.0 para tenis</h3>
+            <p>Hombre Tenis</p>
+            <p>2 Colores<strong> . envio gratis</strong></p>
+        </div>
+        </div>
+
+
+
+
+
+
+
 
     </main>
 </body>
